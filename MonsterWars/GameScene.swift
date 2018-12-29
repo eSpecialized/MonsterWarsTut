@@ -104,13 +104,13 @@ class GameScene: SKScene {
 
         entityManager = EntityManager(scene: self)
 
-        let humanCastle = Castle(imageName: "castle1_atk", team:.team1)
+        let humanCastle = Castle(imageName: "castle1_atk", team:.team1, entityManager: entityManager)
         if let spriteComponent = humanCastle.component(ofType: SpriteComponent.self) {
             spriteComponent.node.position = CGPoint(x: spriteComponent.node.size.width/2, y: size.height/2)
         }
         entityManager.add(humanCastle)
 
-        let aiCastle = Castle(imageName: "castle2_atk", team:.team2)
+        let aiCastle = Castle(imageName: "castle2_atk", team:.team2, entityManager: entityManager)
         if let spriteComponent = aiCastle.component(ofType: SpriteComponent.self) {
             spriteComponent.node.position = CGPoint(x: size.width - spriteComponent.node.size.width/2, y: size.height/2)
         }
