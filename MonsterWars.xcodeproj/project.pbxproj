@@ -34,6 +34,7 @@
 		35946B1821D6CB040072E6FF /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35946B1721D6CB040072E6FF /* EntityManager.swift */; };
 		35946B1A21D6E1030072E6FF /* TeamComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35946B1921D6E1030072E6FF /* TeamComponent.swift */; };
 		35946B1C21D6E3270072E6FF /* CastleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35946B1B21D6E3270072E6FF /* CastleComponent.swift */; };
+		35946B1E21D6EE980072E6FF /* Quirk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35946B1D21D6EE980072E6FF /* Quirk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		35946B1721D6CB040072E6FF /* EntityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
 		35946B1921D6E1030072E6FF /* TeamComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamComponent.swift; sourceTree = "<group>"; };
 		35946B1B21D6E3270072E6FF /* CastleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleComponent.swift; sourceTree = "<group>"; };
+		35946B1D21D6EE980072E6FF /* Quirk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quirk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				35946B1521D6CAA30072E6FF /* Castle.swift */,
 				35946B1721D6CB040072E6FF /* EntityManager.swift */,
+				35946B1D21D6EE980072E6FF /* Quirk.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				352F998C1BE919C5001D1D3E /* ButtonNode.swift in Sources */,
 				352F999A1BE928AF001D1D3E /* MyUtils.swift in Sources */,
 				35946B1C21D6E3270072E6FF /* CastleComponent.swift in Sources */,
+				35946B1E21D6EE980072E6FF /* Quirk.swift in Sources */,
 				352F99611BE91323001D1D3E /* GameViewController.swift in Sources */,
 				35946B1621D6CAA30072E6FF /* Castle.swift in Sources */,
 				352F99B31BE97B48001D1D3E /* Constants.swift in Sources */,

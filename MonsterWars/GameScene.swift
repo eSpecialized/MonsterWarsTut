@@ -44,7 +44,7 @@ class GameScene: SKScene {
     var gameOver = false
 
     var backgroundNode: SKSpriteNode!
-    var entityManager: EntityManager!
+    var entityManager: EntityManager! //good candidate for lazy var?
 
     override func didMove(to view: SKView) {
 
@@ -119,6 +119,7 @@ class GameScene: SKScene {
 
     func quirkPressed() {
         print("Quirk pressed!")
+        entityManager.spawnQuirk(team: .team1)
     }
 
     func zapPressed() {
