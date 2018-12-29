@@ -97,7 +97,7 @@ extension CGPoint {
   }
 }
 
-let π = CGFloat(M_PI)
+let π = CGFloat.pi
 
 func shortestAngleBetween(_ angle1: CGFloat, 
                           angle2: CGFloat) -> CGFloat {
@@ -132,6 +132,7 @@ extension CGFloat {
 // MARK: Points and vectors
 extension CGPoint {
   init(_ point: float2) {
+    self.init()
     x = CGFloat(point.x)
     y = CGFloat(point.y)
   }
